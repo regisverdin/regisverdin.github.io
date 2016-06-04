@@ -1,0 +1,140 @@
+html {
+	font-family: 'Julius Sans One', sans-serif;
+}
+
+body {
+	
+	background-color: rgb(210,210,210);
+
+	border-style:solid;
+	border-width: 0.2em;
+	border-color: black;
+
+	height: 97vh;
+
+}
+
+#navbar {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+
+	font-size: 1em;
+
+	margin-left: 1vw;
+	
+}
+
+.main-heading {
+
+	margin-top: 10vh;
+	font-size: 3.75em;
+	text-align: center;
+
+	color:rgb(24,33,40);
+}
+
+#name {
+	font-size: 1.875em;
+	position: fixed;
+	margin-left: 1vw;
+
+}
+
+.link {
+	cursor:pointer;
+}
+
+.link:hover {
+	background:gold;
+}
+
+.slides {
+
+	width: 50vw;
+	height: 60vh;
+
+	margin: 0 auto;
+	margin-top: 20vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+.grid-item {
+
+	background-color: rgb(180, 180, 180);
+	float:left;
+	width: 10vw;
+	height: 10vw;
+	margin: 2vw;
+}
+
+#rhythm-app{
+
+}
+
+#earsketch {
+	background-image: url(img/earsketch.png);
+	background-size: cover;
+}
+
+#bird {
+	background-image: url(img/bird.png);
+	background-size: cover;
+}
+
+#hackathon{
+	background-image: url(img/werkstatt.jpg);
+	background-size: cover;
+}
+
+#vibrato {
+	background-image: url(img/vibrato.png);
+	background-size: cover;
+}
+
+#sonicpan {
+	background-image: url(img/sonicpan.png);
+	background-size: cover;
+}
+
+#shimon {
+	background-image: url(img/shimon.jpg);
+	background-size: cover;
+}
+
+#circleseq {
+	background-image: url(img/circleseq.png);
+	background-size: cover;
+}
+
+#tenney {
+	background-image: url(img/tenney.png);
+	background-size: cover;
+}
+
+#other {
+	background-image: url(img/ellipsis.png);
+	background-size: cover;
+}
+
+.pdf-viewer {
+	height:100vh;
+	/*width:70vw;*/
+	/*position: relative;*/
+
+	margin: 0 auto;
+	margin-top: 10em;
+}
+
+.project-blurb {
+	text-align:center;
+}
