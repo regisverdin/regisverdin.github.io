@@ -59,15 +59,6 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
-
 .grid-item {
 
 	background-color: rgb(180, 180, 180);
@@ -76,6 +67,33 @@ body {
 	height: 10vw;
 	margin: 2vw;
 }
+
+.container {
+	max-height: 100%;
+	margin: 2em;
+}
+
+.leftcol {
+	float:left;
+	max-width: 50%;
+
+}
+
+.rightcol {
+	float:left;
+	max-width: 50%;
+	margin-left:2em;
+}
+
+.footer {
+	clear:both;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
 
 #rhythm-app{
 
@@ -135,6 +153,5 @@ body {
 	margin-top: 10em;
 }
 
-.project-blurb {
-	text-align:center;
+.blurb {
 }
