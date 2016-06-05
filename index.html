@@ -15,16 +15,15 @@
     <h2 id="name">Regis Verdin</h2>
 
     <nav id="navbar">
-        <p class="link">Rhythm Sequencer App</p>
-        <p class="link">EarSketch Curriculum</p>
-        <p class="link">Birdsong Classifier</p>
-        <p class="link">Beachball Synth</p>
-        <p class="link">Vibrato and Pitch Perception</p>
-        <p class="link">Shimon, Robot Drummer</p>
-        <p class="link">Web Surround Panner</p>
-        <p class="link">Circle Sound Toy</p>
-        <p class="link">Analysis: Tenney's Collage #1</p>
-        <p class="link">Other</p>
+        <p class="navItem" data-index="1">Rhythm Sequencer App</p>
+        <p class="navItem" data-index="2">EarSketch Curriculum</p>
+        <p class="navItem" data-index="3">Birdsong Classifier</p>
+        <p class="navItem" data-index="4">Beachball Synth</p>
+        <p class="navItem" data-index="5">Vibrato and Pitch Perception</p>
+        <p class="navItem" data-index="6">Shimon, Robot Drummer</p>
+        <p class="navItem" data-index="7">Web Surround Panner</p>
+        <p class="navItem" data-index="8">Circle Sound Toy</p>
+        <p class="navItem" data-index="9">Analysis: Tenney's Collage #1</p>
     </nav>
 
     <div class="slides">
@@ -41,38 +40,143 @@
             <a></a>
         </div>
         
-        <div id="rhythm-app">
+        <div class="slide" id="rhythm-app">
+            <h1 class="heading">Rhythm Sequencer App</h1>
             <div class="container">
-                <h1 class="heading">Rhythm Sequencer App</h1>
-                <div class="leftcol">
-                    <p class="blurb">In progress. An iOS app for<br/>sequencing complex rhythms<br/>on a customizable grid. The<br/>design allows interpolation<br/>between two rhythmic<br/>patterns to create a hybrid<br/>pattern, among other unique<br/>tools.</p>
+                <div class="box leftbox">
+                    <p class="blurb">In progress. An iOS app for sequencing complex rhythms on a customizable grid. The design allows interpolation between two rhythmic patterns to create a hybrid pattern, among other unique tools.</p>
                     <a target="_blank" href="https://github.com/regisverdin/Linus">Github</a>
                     <br/>
                     <a href="./pdf/ComplexRhythmSequencerApp.pdf" download>Paper (PDF)</a>
                 </div>
-                <div class="rightcol">
+                <div class="box rightbox">
                     <img src="./img/AppMockup.png" alt="App Mockup">
                 </div>
-                <div class="footer">test</div>
             </div>
         </div>
 
-        <div id="earsketch">
+        <div class="slide" id="earsketch">
+            <h1 class="heading">EarSketch Curriculum</h1>
             <div class="container">
-                <h1 class="heading">EarSketch Curriculum</h1>
-                <div class="leftcol">
-                    <p class="blurb">In progress. An iOS app for<br/>sequencing complex rhythms<br/>on a customizable grid. The<br/>design allows interpolation<br/>between two rhythmic<br/>patterns to create a hybrid<br/>pattern, among other unique<br/>tools.</p>
-                    <a target="_blank" href="https://github.com/regisverdin/Linus">Github</a>
+                <div class="box leftbox">
+                    <p class="blurb">I wrote and maintained an online AP computer science curriculum for EarSketch. EarSketch is a National Science Foundation-funded initiative that was created to motivate students to consider further study and careers in computer science. It is a web-based DAW / IDE for making music with code, and contains an integrated curriculum for teaching computer science, music technology, and music composition.</p>
+                    <a target="_blank" href="https://earsketch.gatech.edu/earsketch2/">EarSketch Site</a>
                     <br/>
-                    <a href="./pdf/ComplexRhythmSequencerApp.pdf" download>Paper (PDF)</a>
+                    <!-- <a href="./pdf/ComplexRhythmSequencerApp.pdf" download>Paper (PDF)</a> -->
                 </div>
-                <div class="rightcol">
-                    <img src="./img/AppMockup.png" alt="App Mockup">
+                <div class="box rightbox">
+                    <img src="./img/EarSketch.png" alt="App Mockup">
                 </div>
-                <div class="footer">test</div>
             </div>
         </div>
 
+        <div class="slide" id="birdsong">
+            <h1 class="heading">Birdsong Classifier</h1>
+            <div class="container">
+                <div class="box leftbox">
+                    <p class="blurb">Avrosh Kumar and I implemented a bird song classifier in Matlab, which was tested on the BirdClef data set. We used de-noising and musical segmentation techniques (especially the self-similarity lag matrix) on the data before training a k-Nearest Neighbor classifier.</p>
+                    <p>Teammate: Avrosh Kumar</p>
+                    <a target="_blank" href="https://github.com/avroshk/BirdSongAnalysis">Github</a>
+                    <br/>
+                    <a href="./pdf/BirdSong.pdf" download>Paper (PDF)</a>
+                </div>
+                <div class="box rightbox">
+                    <img src="./img/BirdSongSegment.png" alt="App Mockup">
+                </div>
+            </div>
+        </div>
+
+        <div class="slide" id="beachball">
+            <h1 class="heading">Beachball Synth</h1>
+            <div class="container">
+                <div class="box leftbox">
+                    <p class="blurb">As part of the Moog Hackathon at Georgia Tech, our team built a wireless synth controller designed to be embedded in a beachball. The controller sends gyro/accelerometer data to a computer, then to an arduino, and finally maps the beachball movement to controls on a Moog Werkstatt analog synthesizer. Our team received honorable mention.</p>
+                    <p>Teammates: Hayden Riddiford and Charles “Julian” Knight</p>
+                    <!-- <a target="_blank" href="https://github.com/avroshk/BirdSongAnalysis">Github</a> -->
+                    <br/>
+                    <!-- <a href="./pdf/BirdSong.pdf" download>Paper (PDF)</a> -->
+                </div>
+                <div class="box rightbox">
+                    <!-- <img src="./img/BirdSongSegment.png" alt="App Mockup"> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="slide" id="vibrato">
+            <h1 class="heading">Vibrato &amp; Pitch Perception</h1>
+            <div class="container">
+                <div class="box leftbox">
+                    <p class="blurb">We explored how the rate and depth of vibrato, modeled as frequency modulation here, affects a listener’s sense of central pitch. The data was acquired using human subjects and a system built in Max MSP. We found that vibrato rate had little effect on the listener’s ability to identify a central pitch. I came up with the idea for the experiment, built the first versions of the Max patch, and co-wrote the paper.</p>
+                    <p>Teammates: Deepak Gopinath, Alan Zhang, Brian Lee, Roozbeh Khodambashi</p>
+                    <!-- <a target="_blank" href="https://github.com/avroshk/BirdSongAnalysis">Github</a> -->
+                    <br/>
+                    <a href="./pdf/EffectsOfVibratoOnPitchPerception.pdf" download>Paper (PDF)</a>
+                </div>
+                <div class="box rightbox">
+                    <!-- <img src="./img/BirdSongSegment.png" alt="App Mockup"> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="slide" id="shimon">
+            <h1 class="heading">Robotic Drumming with Shimon</h1>
+            <div class="container">
+                <div class="box leftbox">
+                    <p class="blurb">Shimon is a Robotic marimba player living at the Georgia Tech Center for Music Technology. I replaced Shimon’s marimba with a set of drums and created an interactive system where Shimon would respond to timbral changes in the drums enacted by a human performer. For example, bending a struck metal sheet was mapped to an increase in tempo, while other drums detected onsets and triggered new sections in the music. A band was formed around this and performed at the Listening Machines 2016 concert.</p>
+                    <!-- <a target="_blank" href="https://github.com/avroshk/BirdSongAnalysis">Github</a> -->
+                    <br/>
+                    <!-- <a href="./pdf/EffectsOfVibratoOnPitchPerception.pdf" download>Paper (PDF)</a> -->
+                </div>
+                <div class="box rightbox">
+                    <!-- <img src="./img/BirdSongSegment.png" alt="App Mockup"> -->
+                    <iframe src="https://www.youtube.com/embed/ZXDpDmAF53A?start=1463" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+
+        <div class="slide" id="panner">
+            <h1 class="heading">Web Surround Panner</h1>
+            <div class="container">
+                <div class="box leftbox">
+                    <p class="blurb">A simple website for testing surround panning using the Web-Audio API. A canvas shows speaker positions in the current audio setup, and mousing over the canvas pans the audio based on the mouse-position and speaker-positions. In progress.</p>
+                    <a target="_blank" href="https://github.com/regisverdin/SonicPan">Github</a>
+                    <br/>
+                    <!-- <a href="./pdf/EffectsOfVibratoOnPitchPerception.pdf" download>Paper (PDF)</a> -->
+                </div>
+                <div class="box rightbox">
+                    <!-- <img src="./img/BirdSongSegment.png" alt="App Mockup"> -->
+                </div>
+            </div>
+        </div>
+
+
+        <div class="slide" id="circle">
+            <h1 class="heading">Circle Sounds</h1>
+            <div class="container">
+                <div class="box leftbox">
+                    <p class="blurb">A web-based audio-visual toy. The user can draw circles and place events on them, which rotate and make sound when colliding with other circles.</p>
+                    <a target="_blank" href="https://github.com/regisverdin/CircleSounds">Github</a>
+                    <br/>
+                    <!-- <a href="./pdf/EffectsOfVibratoOnPitchPerception.pdf" download>Paper (PDF)</a> -->
+                </div>
+                <div class="box rightbox">
+                    <!-- <img src="./img/BirdSongSegment.png" alt="App Mockup"> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="slide" id="tenney">
+            <h1 class="heading">Analysis: Tenney's Collage #1</h1>
+            <div class="container">
+                <div class="box leftbox">
+                    <p class="blurb">A visual and written analysis of one of the first pieces of music to sample popular music.</p>
+                    <a href="./pdf/SamplingAndTimbreInCollage1.pdf" download>Paper (PDF)</a>
+                </div>
+                <div class="box rightbox">
+                    <!-- <img src="./img/BirdSongSegment.png" alt="App Mockup"> -->
+                </div>
+            </div>
+        </div>
 
     </div>
             
