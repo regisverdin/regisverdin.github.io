@@ -17,11 +17,10 @@ body {
 #navbar {
 	position: absolute;
 	top: 50%;
-	transform: translateY(-20%);
+	transform: translateY(-50%);
 
 	font-size: 1em;
 	margin-left: 1vw;
-	
 }
 
 .main-heading {
@@ -29,8 +28,15 @@ body {
 	margin-top: 10vh;
 	font-size: 3.75em;
 	text-align: center;
-
 	color:rgb(24,33,40);
+}
+
+.heading {
+	text-align: center;
+}
+
+.dates {
+	text-align: center;
 }
 
 #name {
@@ -105,4 +111,6 @@ body {
 .blurb {
 	text-align: justify;
 	overflow: scroll;
+	/*font-family: 'Berkshire Swash', cursive;*/
+	color:black;
 }
