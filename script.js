@@ -1,19 +1,29 @@
+var api2;
+
 $(document).ready(function(){
 
-    $('.slides').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        dots: true,
-        arrows: true,
-        fade:true,
-        accessibility:true,
-        waitForAnimate:false,
-        adaptiveHeight:true
+
+
+    $(function(){
+        $('#slider-id').liquidSlider();
+        console.log("asdf");
     });
 
-    $('.navItem').on('click', function(){
-        var index = $(this).attr("data-index");
-        $('.slides').slick('slickGoTo', index);
+    $(function(){
+        $('#main-slider').liquidSlider({
+            autoHeight: true,
+            heightEaseDuration: 400,
+            slideEaseDuration: 500,
+            slideEaseFunction: 'fade',
+            dynamicArrowsGraphical: true,
+            dynamicTabs: false
+        });
     });
 
 });
+
+window.setTimeout( function(){
+    api2 = $.data( $('#main-slider')[0], 'liquidSlider');
+    console.log("here");
+    var x = 5;
+}, 300);

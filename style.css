@@ -14,24 +14,35 @@ body {
 
 }
 
+#name {
+	font-size: 1.875em;
+	position: fixed;
+	margin-left: 1vw;
+}
+
 #navbar {
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
+	max-width: 20vw;
 
 	font-size: 1em;
 	margin-left: 1vw;
+
+	text-align: justify;
+}
+
+.navItem:hover {
+	background-color: gold;
 }
 
 .main-heading {
-
-	margin-top: 10vh;
 	font-size: 3.75em;
 	text-align: center;
 	color:rgb(24,33,40);
 }
 
-.heading {
+.title {
 	text-align: center;
 }
 
@@ -39,57 +50,47 @@ body {
 	text-align: center;
 }
 
-#name {
-	font-size: 1.875em;
-	position: fixed;
-	margin-left: 1vw;
-
-}
-
 .navItem {
 	cursor:pointer;
 }
 
-.navItem:hover {
-	background-color: gold;
-}
+.ls-wrapper {
 
-.slides {
-
-	width: 50vw;
-	height: 60vh;
+	/*max-width: 60vw;*/
+	/*width: 50vw;*/
+	/*height: auto;*/
+	max-height:90vh;
 
 	margin: 0 auto;
-	margin-top: 20vh;
-}
+	top: 50%;
+	transform: translateY(-50%);
 
 
-.grid-item {
-
-	background-color: rgb(180, 180, 180);
-	float:left;
-	width: 10vw;
-	height: 10vw;
-	margin: 2vw;
+	/*border-color: black;*/
+	/*border-style: solid;*/
+	/*border-width: 1px;*/
 }
 
 .slide {
-	position: relative;
+	/*overflow: scroll;*/
 }
 
 .container {
 	display:table;
 	/*vertical-align:middle;*/
+	padding-bottom:10vh;
 	transform: translateY(+10%);
 }
 
 .box {
   display: table-cell;
   vertical-align:middle;
+  margin
 }
 
 .leftbox {
 	width:auto;
+	padding:2%;
 }
 
 .rightbox{
@@ -97,6 +98,7 @@ body {
 	max-width: 100%;
 	max-height:50%;
 	overflow: scroll;
+	padding:2%;
 
 }
 
