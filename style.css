@@ -79,13 +79,12 @@ body {
 	display:table;
 	/*vertical-align:middle;*/
 	padding-bottom:10vh;
-	transform: translateY(+10%);
+	transform: translateY(+7%);
 }
 
 .box {
   display: table-cell;
   vertical-align:middle;
-  margin
 }
 
 .leftbox {
@@ -95,7 +94,7 @@ body {
 
 .rightbox{
 	width:50%;
-	max-width: 100%;
+	max-width: 50%;
 	max-height:50%;
 	overflow: scroll;
 	padding:2%;
