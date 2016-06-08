@@ -6,7 +6,6 @@ $(document).ready(function(){
 
     $(function(){
         $('#slider-id').liquidSlider();
-        console.log("asdf");
     });
 
     $(function(){
@@ -20,10 +19,29 @@ $(document).ready(function(){
         });
     });
 
+    $(document).ready(function() {
+        $(".fancybox").fancybox();
+    });
+
+    $(".fancybox").fancybox({
+        
+    });
+
+    $(".box img").hover(function(){
+        $(".box img").animate({
+            opacity: 0.6,
+        }, 200);
+    },
+    function(){
+        $(".box img").animate({
+            opacity: 1,
+        }, 200);
+    });
+
 });
+
+
 
 window.setTimeout( function(){
     api2 = $.data( $('#main-slider')[0], 'liquidSlider');
-    console.log("here");
-    var x = 5;
 }, 300);
