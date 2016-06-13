@@ -65,10 +65,17 @@ body {
 	top: 50%;
 	transform: translateY(-50%);
 
+	border: 1px solid black;
+	border-radius: 20px;
+
 
 	/*border-color: black;*/
 	/*border-style: solid;*/
 	/*border-width: 1px;*/
+}
+
+.liquid-slider {
+	background-color: transparent !important;
 }
 
 .container {
@@ -86,27 +93,26 @@ body {
 .leftbox {
 	width:auto;
 	padding:2%;
+	/*overflow:scroll;*/
 }
 
 .rightbox{
 	width:50%;
 	max-width: 50%;
 	max-height:50%;
-	overflow: scroll;
+	/*overflow: scroll;*/
 	padding:2%;
-
 }
 
 .box img {
 	width:100%;
-
 	max-width: 100%;
 	max-height:100%;
 }
 
 .box p {
 	text-align: justify;
-	overflow: scroll;
+	/*overflow: scroll;*/
 	/*font-family: 'Berkshire Swash', cursive;*/
 	/*font-family: 'Quicksand', sans-serif;*/
 	font-family: 'Lato', sans-serif;
