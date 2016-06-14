@@ -19,6 +19,7 @@ $(document).ready(function(){
         });
     });
 
+
     $(document).ready(function() {
         $(".fancybox").fancybox();
     });
@@ -26,6 +27,7 @@ $(document).ready(function(){
     $(".fancybox").fancybox({
         
     });
+
 
     $(".box img").hover(function(){
         $(".box img").animate({
@@ -37,6 +39,13 @@ $(document).ready(function(){
             opacity: 1,
         }, 200);
     });
+
+    $(".navItem").click(function(){
+        $(".navItem").not(this).addClass("navItem :hover", "navItem");
+        $(".navItem").not(this).removeClass("selectedNavItem");
+        $(this).addClass("selectedNavItem");
+    });
+
 
 });
 

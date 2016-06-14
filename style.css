@@ -32,8 +32,28 @@ body {
 	text-align: justify;
 }
 
+.navItem {
+	cursor:pointer;
+}
+
 .navItem:hover {
-	background-color: gold;
+	background-color: #d8f2f8;
+}
+
+.selectedNavItem {
+	background-color: #d8f2f8;
+	text-decoration: underline;
+}
+
+#contact {
+	text-align:right;
+	margin-left:auto;
+	margin-right: 1vw;
+	font-size:0.9em;
+	position:fixed;
+	top: 1vh;
+	right: 1vw;
+
 }
 
 .main-heading {
@@ -50,9 +70,6 @@ body {
 	text-align: center;
 }
 
-.navItem {
-	cursor:pointer;
-}
 
 .ls-wrapper {
 
