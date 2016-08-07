@@ -44,8 +44,20 @@ $(document).ready(function(){
         $(".navItem").not(this).addClass("navItem :hover", "navItem");
         $(".navItem").not(this).removeClass("selectedNavItem");
         $(this).addClass("selectedNavItem");
+        mixpanel.track("Nav Button Clicked");
     });
 
+    $(".ls-nav-left-arrow").click(function() {
+        $(".navItem").not(this).addClass("navItem :hover", "navItem");
+        $(".navItem").not(this).removeClass("selectedNavItem");
+        $(this).addClass("selectedNavItem");
+    });
+
+    $(".ls-nav-right-arrow").click(function() {
+        $(".navItem").not(this).addClass("navItem :hover", "navItem");
+        $(".navItem").not(this).removeClass("selectedNavItem");
+        $(this).addClass("selectedNavItem");
+    });
 
 });
 
