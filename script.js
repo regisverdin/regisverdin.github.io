@@ -14,8 +14,9 @@ $(document).ready(function(){
             heightEaseDuration: 400,
             slideEaseDuration: 500,
             slideEaseFunction: 'fade',
-            dynamicArrowsGraphical: true,
-            dynamicTabs: false
+            // dynamicArrowsGraphical: true,
+            dynamicTabs: false,
+            dynamicArrows: false
         });
     });
 
@@ -47,17 +48,17 @@ $(document).ready(function(){
         mixpanel.track("Nav Button Clicked");
     });
 
-    $(".ls-nav-left-arrow").click(function() {
-        $(".navItem").not(this).addClass("navItem :hover", "navItem");
-        $(".navItem").not(this).removeClass("selectedNavItem");
-        $(this).addClass("selectedNavItem");
-    });
+    // $(".ls-nav-left-arrow").click(function() {
+    //     $(".navItem").not(this).addClass("navItem :hover", "navItem");
+    //     $(".navItem").not(this).removeClass("selectedNavItem");
+    //     $(this).addClass("selectedNavItem");
+    // });
 
-    $(".ls-nav-right-arrow").click(function() {
-        $(".navItem").not(this).addClass("navItem :hover", "navItem");
-        $(".navItem").not(this).removeClass("selectedNavItem");
-        $(this).addClass("selectedNavItem");
-    });
+    // $(".ls-nav-right-arrow").click(function() {
+    //     $(".navItem").not(this).addClass("navItem :hover", "navItem");
+    //     $(".navItem").not(this).removeClass("selectedNavItem");
+    //     $(this).addClass("selectedNavItem");
+    // });
 
 });
 
